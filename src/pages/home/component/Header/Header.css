@@ -1,0 +1,34 @@
+.borderbox {
+    box-sizing: border-box;
+}
+
+.inlineBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.a {
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+.topView {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.righta {
+    color: black;
+    font-size: 14px;
+}
+
+.line {
+    display: inline-block;
+    width: 0.5px;
+    height: 12px;
+    background-color: black;
+}
